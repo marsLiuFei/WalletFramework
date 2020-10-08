@@ -19,8 +19,8 @@ test WalletFramework 1006.a
 
   spec.source       = { :git => "https://github.com/marsLiuFei/WalletFramework.git", :tag => "#{spec.version}" }
 
-   spec.resources  = "WalletFramework/Resources.bundle"
-   spec.vendored_frameworks = "WalletFramework/WRWallet.framework"
+   spec.resource  = 'WalletFramework/Resources.bundle'
+   spec.vendored_frameworks = 'WalletFramework/WRWallet.framework'
  
    spec.requires_arc = true
 
