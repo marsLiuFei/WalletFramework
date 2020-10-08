@@ -104,7 +104,7 @@ test WalletFramework 1006.a
   #  non-essential files like tests, examples and documentation.
   #
 
-   spec.resource  = "WalletFramework/Resources.bundle"
+   spec.resources  = "WalletFramework/Resources.bundle"
    spec.ios.vendored_frameworks = 'WalletFramework/WRWallet.framework'
   # spec.resources = "Resources/*.png"
 
