@@ -22,7 +22,7 @@ test WalletFramework 1006.a
    spec.resource  = 'WalletFramework/Resources.bundle'
    spec.ios.vendored_frameworks = 'WalletFramework/WRWallet.framework'
  
-   spec.requires_arc = false
+   
 
 
     spec.dependency 'Masonry', '~> 1.1.0'
@@ -41,4 +41,6 @@ test WalletFramework 1006.a
     spec.dependency 'CXDatePickerView', '~> 0.2.2'
     spec.dependency 'IFMMenu', '~> 1.0.3'
 
+
+   spec.requires_arc = true
 end
