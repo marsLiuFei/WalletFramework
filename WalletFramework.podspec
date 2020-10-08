@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "WalletFramework"
   spec.version      = "0.0.1"
-  spec.summary      = "test WalletFramework."
+  spec.summary      = "test WalletFramework 1006."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  钱包SDK 0.0.1
+test WalletFramework 1006.a
                    DESC
 
   spec.homepage     = "https://github.com/marsLiuFei/WalletFramework"
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license = { :type => "MIT", :file => "LICENSE" }
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -72,7 +72,7 @@ Pod::Spec.new do |spec|
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
-    spec.ios.deployment_target = '9.0'
+  spec.ios.deployment_target = "9.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/marsLiuFei/WalletFramework.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/marsLiuFei/WRWallet.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,10 +91,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  # spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  #spec.source_files = 'WalletFramework/*'
+  #spec.public_header_files = 'WalletFramework/WRWallet.framework/WRWalletManager.h'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -104,9 +103,9 @@ Pod::Spec.new do |spec|
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
   #
-   spec.resources = "WalletFramework/WalletFramework/Resources.bundle"
-   spec.vendored_frameworks = 'WalletFramework/WalletFramework/WRWallet.framework'
-   #spec.ios.vendored_frameworks = 'WalletFramework/WRWallet.framework'
+
+   spec.resource  = "WalletFramework/Resources.bundle"
+   spec.ios.vendored_frameworks = 'WalletFramework/WRWallet.framework'
   # spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
@@ -120,7 +119,6 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-    spec.frameworks = 'Foundation', 'UIKit'
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
@@ -136,19 +134,21 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-    spec.dependency 'Masonry'
-    spec.dependency 'MJRefresh'
-    spec.dependency 'MJExtension'
-    spec.dependency 'MBProgressHUD'
-    spec.dependency 'IQKeyboardManager'
-    spec.dependency 'XMNetworking'
-    spec.dependency 'SDWebImage'
-    spec.dependency 'CRBoxInputView'
-    spec.dependency 'YYText'
-    spec.dependency 'JXCategoryView'
-    spec.dependency 'JXPagingView/Pager'
-    spec.dependency 'BlocksKit'
-    spec.dependency 'DZNEmptyDataSet'
-    spec.dependency 'CXDatePickerView'
-    spec.dependency 'IFMMenu'
+  
+    spec.dependency 'Masonry', '~> 1.1.0'
+    spec.dependency 'MJRefresh', '~> 3.4.3'
+    spec.dependency 'MJExtension', '~> 3.2.2'
+    spec.dependency 'MBProgressHUD', '~> 1.2.0'
+    spec.dependency 'IQKeyboardManager', '~> 6.5.6'
+    spec.dependency 'XMNetworking', '~> 1.1.0'
+    spec.dependency 'SDWebImage', '~> 5.8.0'
+    spec.dependency 'CRBoxInputView', '~> 1.2.1'
+    spec.dependency 'YYText', '~> 1.0.7'
+    spec.dependency 'JXCategoryView', '~> 1.5.6'
+    spec.dependency 'JXPagingView/Pager', '~> 1.0.1'
+    spec.dependency 'BlocksKit', '~> 2.2.5'
+    spec.dependency 'DZNEmptyDataSet', '~> 1.8.1'
+    spec.dependency 'CXDatePickerView', '~> 0.2.2'
+    spec.dependency 'IFMMenu', '~> 1.0.3'
+
 end
