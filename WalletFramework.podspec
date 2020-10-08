@@ -105,7 +105,7 @@ test WalletFramework 1006.a
   #
 
    spec.resources  = "WalletFramework/Resources.bundle"
-   spec.ios.vendored_frameworks = 'WalletFramework/WRWallet.framework'
+   spec.vendored_frameworks = 'WalletFramework/WRWallet.framework'
   # spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
