@@ -103,7 +103,7 @@ test WalletFramework 1006.a
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
 
-   spec.resources  = "WalletFramework/Resources.bundle"
+   spec.resources  = 'WalletFramework/Resources.bundle'
    spec.vendored_frameworks = 'WalletFramework/WRWallet.framework'
   # spec.resources = "Resources/*.png"
 
