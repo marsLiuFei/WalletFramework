@@ -102,7 +102,6 @@ test WalletFramework 1006.a
   #  target bundle with a build phase script. Anything else will be cleaned.
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
-  #
 
    spec.resources  = "WalletFramework/Resources.bundle"
    spec.vendored_frameworks = 'WalletFramework/WRWallet.framework'
