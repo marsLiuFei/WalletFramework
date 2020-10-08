@@ -138,7 +138,7 @@ Pod::Spec.new do |spec|
   # spec.dependency "JSONKit", "~> 1.4"
     spec.dependency 'Masonry', '~> 1.1.0'
     spec.dependency 'MJRefresh', '~> 3.4.3'
-    spec.dependency 'MJExtension', '~> 3.2.2'
+    spec.dependency 'MJExtension'
     spec.dependency 'MBProgressHUD', '~> 1.2.0'
     spec.dependency 'IQKeyboardManager', '~> 6.5.6'
     spec.dependency 'XMNetworking', '~> 1.1.0'
