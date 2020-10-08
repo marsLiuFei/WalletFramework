@@ -147,7 +147,7 @@ Pod::Spec.new do |spec|
     spec.dependency 'YYText', '~> 1.0.7'
     spec.dependency 'JXCategoryView', '~> 1.5.6'
     spec.dependency 'JXPagingView/Pager', '~> 1.0.1'
-    spec.dependency 'BlocksKit', '~> 2.2.5'
+    spec.dependency 'BlocksKit'
     spec.dependency 'DZNEmptyDataSet', '~> 1.8.1'
     spec.dependency 'CXDatePickerView', '~> 0.2.2'
     spec.dependency 'IFMMenu', '~> 1.0.3'
