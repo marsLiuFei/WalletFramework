@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "test WalletFramework 1006."
 
   spec.description  = <<-DESC
-test WalletFramework 1006.a
+test WalletFramework 1013.a
                    DESC
 
   spec.homepage     = "https://github.com/marsLiuFei/WalletFramework"
